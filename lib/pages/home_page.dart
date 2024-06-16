@@ -103,7 +103,9 @@ class _HomePageState extends State<HomePage> {
                             child: SvgPicture.asset(
                               'assets/air-plane.svg',
                               colorFilter: const ColorFilter.mode(
-                                  Colors.white, BlendMode.srcIn),
+                                Colors.white,
+                                BlendMode.srcIn,
+                              ),
                               height: 26,
                             ),
                           ),
